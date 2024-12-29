@@ -1,0 +1,13 @@
+train: C:\Users\Sidhant Saxena\Desktop\december\yolo_v11_project\train\images
+val: C:\Users\Sidhant Saxena\Desktop\december\yolo_v11_project\valid\images
+test: C:\Users\Sidhant Saxena\Desktop\december\yolo_v11_project\test\images
+
+nc: 4
+names: ['ball', 'goalkeeper', 'player', 'referee']
+
+roboflow:
+  workspace: shootaai
+  project: soccer_detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shootaai/soccer_detection/dataset/3
